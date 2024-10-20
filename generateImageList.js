@@ -6,7 +6,7 @@ function getImageFileNames() {
   const currentDir = __dirname;
   const files = fs.readdirSync(currentDir);
   
-  const supportedExtensions = ['.jpg', '.jpeg', '.png', '.gif']; // Add more extensions as needed
+  const supportedExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp']; // Add more extensions as needed
   
   // Filter for image files and exclude the script itself and the output JSON
   const scriptName = path.basename(__filename);
